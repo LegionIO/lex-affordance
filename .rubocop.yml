@@ -1,6 +1,7 @@
 AllCops:
   NewCops: enable
   TargetRubyVersion: 3.4
+  SuggestExtensions: false
 Style/Documentation:
   Enabled: false
 Naming/PredicateMethod:
@@ -19,3 +20,5 @@ Metrics/ParameterLists:
 Layout/HashAlignment:
   EnforcedColonStyle: table
   EnforcedHashRocketStyle: table
+Gemspec/DevelopmentDependencies:
+  Enabled: false

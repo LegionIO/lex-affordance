@@ -3,7 +3,7 @@
 module Legion
   module Extensions
     module Affordance
-      module Actors
+      module Actor
         class Scan < Legion::Extensions::Actors::Every
           INTERVAL = 30
 
